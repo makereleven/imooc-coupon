@@ -1,14 +1,12 @@
-package com.imooc.coupon.Controller;
+package com.imooc.coupon.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.imooc.coupon.entity.CouponTemplate;
 import com.imooc.coupon.exception.CouponException;
 import com.imooc.coupon.service.IBuildTemplateService;
 import com.imooc.coupon.service.ITemplateBaseService;
-import com.imooc.coupon.service.impl.BuildTemplateServiceImpl;
 import com.imooc.coupon.vo.CouponTemplateSDK;
 import com.imooc.coupon.vo.TemplateRequest;
-import com.imooc.coupon.vo.TemplateRule;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

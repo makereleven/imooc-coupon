@@ -1,4 +1,4 @@
-package com.imooc.coupon.Controller;
+package com.imooc.coupon.controller;
 
 import com.imooc.coupon.exception.CouponException;
 import lombok.extern.slf4j.Slf4j;
